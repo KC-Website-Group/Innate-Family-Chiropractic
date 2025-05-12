@@ -1,0 +1,46 @@
+.cs-container{
+   background-color: white !important;
+}
+
+.cs-title2{
+    color:#87b581;
+}
+
+.cs-text{
+    color:#7f7f7f !important;
+}
+
+.about-section{
+    margin: 0 0 0 0 !important;
+}
+
+.cs-text{
+    text-align: justify;
+}
+
+.cs-header{
+    font-size: var(--headerFontSize);
+    color:#87b581;
+}
+
+#about-1451{
+    margin: 0 0 0 0 !important;
+}
+
+#about1451 .cs-content{
+    padding: 0 0 0 0 !important;
+}
+
+#sbs-2346{
+    margin: 0 0 0 0 !important;
+}
+
+section#services-1305{
+    margin: 5rem 5rem 5rem 5rem !important;
+}
+
+.cs-item-text{
+    color: #7f7f7f !important;
+    padding: 1rem 0 0 0 !important;
+    text-align: justify !important;
+}
