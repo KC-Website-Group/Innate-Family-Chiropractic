@@ -29,3 +29,8 @@
 .cs-button-solid:hover:before {
     width: 100% !important;
   }
+
+
+  .cs-ul-contact a{
+    font-size:12pt !important;
+  }
