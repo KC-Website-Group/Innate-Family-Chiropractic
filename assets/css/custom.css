@@ -6,6 +6,26 @@
     text-transform: uppercase;
 }
 
-.cs-nav-button{
+.cs-nav-button,
+.cs-button-solid{
     border-radius:20px;
+    overflow:hidden;
+    text-transform: none;
 }
+
+.cs-container{
+    max-width:80rem !important; 
+}
+
+.cs-button-solid:before {
+    background: #5f9458 !important;
+    color:#fff !important;
+}
+
+.cs-title {
+    font-size: clamp(20pt, 5vw, 30pt) !important;
+}
+
+.cs-button-solid:hover:before {
+    width: 100% !important;
+  }
