@@ -1,0 +1,11 @@
+#cs-navigation .cs-social-icon{
+    filter: brightness(0) invert(1);
+}
+
+.cs-li{
+    text-transform: uppercase;
+}
+
+.cs-nav-button{
+    border-radius:20px;
+}
