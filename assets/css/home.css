@@ -64,7 +64,186 @@
     border-radius:20px !important;   
 }
 
+#services-container{ 
+    display: flex;
+    justify-content: center;
+}
 
 #services-331{
-    padding:3rem 0rem;
+    padding:1rem 0rem !important;
+    gap:1rem;
 }
+
+#services-331 .cs-icon-wrapper {
+    border-radius: 0px;
+    background-color: transparent !important;
+}
+
+#services-331 .cs-header{
+    color:var(--primary);
+    font-size:14pt;
+}
+
+#services-331 .cs-icon {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+#sbsr-99 .cs-title{
+    color:var(--primary);
+    max-width:100% !important;
+}
+
+#sbsr-99 .cs-topper{
+    color:var(--bodyTextColor);
+    margin-bottom:1rem;
+    text-transform: none;
+}
+
+
+#sbs-1565 .cs-title{
+    color:var(--primary);
+    max-width:100% !important;
+    margin-bottom:1rem;
+}
+
+#sbs-1565 .cs-topper{
+    color:var(--bodyTextColor);
+    margin-bottom:1rem;
+    text-transform: none;
+}
+
+
+#sbs-1565 .cs-li-text,
+#sbs-1565 .cs-h3
+{
+    text-transform: none;
+    font-size:12pt;
+}
+
+#sbs-1979{
+    /* margin:3rem 0rem !important;  */
+}
+
+#sbs-1979 .cs-title,
+#sbs-1979 .cs-topper{
+    text-align: center;
+    min-width: 100% !important;
+}
+
+#sbs-1979 p{
+    text-transform: none;
+    line-height: 2rem !important;
+}
+
+
+#google-reviews {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/google-reviews.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5rem 0rem;
+    z-index: 0;
+    overflow: hidden;
+}
+#google-reviews::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #87b581ab; /* Green with 50% opacity */
+    z-index: 1;
+    pointer-events: none;
+}
+
+#google-reviews > * {
+    position: relative;
+    z-index: 2;
+}
+
+#google-reviews-contents{
+    background-color:#fff;
+    padding:1.5rem;
+    border-radius:20px;
+}
+
+#google-reviews .cs-title{
+    text-align: center;
+    color:#fff;
+    min-width:100%;
+    margin-bottom:2rem;
+}
+
+
+#sbsr-99-2 .cs-title{
+    color:var(--primary);
+}
+
+#sbsr-99-2 .cs-topper{
+    text-transform: none;
+    font-size:16pt;
+}
+
+#sbsr-99-2 .cs-topper-subtitle{
+    color:var(--bodyTextColor);
+    margin-bottom:2rem;
+}
+
+#sbsr-99-2 .cs-li div{
+    text-transform: none;
+}
+
+#sbsr-99-2 .cs-li div a{
+    margin-top:1rem;
+}
+
+
+
+#about-innate-family {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/about-innate-family.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5rem 0rem;
+    z-index: 0;
+    overflow: hidden;
+}
+#about-innate-family::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #87b581ab; /* Green with 50% opacity */
+    z-index: 1;
+    pointer-events: none;
+}
+
+#about-innate-family > * {
+    position: relative;
+    z-index: 2;
+}
+
+#about-innate-family-contents{
+    background-color:#fff;
+    padding:1.5rem;
+    border-radius:20px;
+}
+
+#about-innate-family .cs-title{
+    text-align: center;
+    color:#fff;
+    min-width:100%;
+    margin-bottom:2rem;
+}
+
+#about-innate-family-contents .cs-text{
+    line-height: 2rem;
+    margin-bottom:1rem;
+}
+
