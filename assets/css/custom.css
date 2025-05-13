@@ -35,6 +35,16 @@
     font-size:12pt !important;
   }
 
+.highlight-background{
+    background-color:var(--highlighBackground);
+}
+
+
+.highlight-background-gray{
+    background-color:var(--highlighBackgroundGray);
+}
+
+
 
 @media screen and (max-width:768px){
     
