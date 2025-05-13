@@ -44,7 +44,14 @@
     background-color:var(--highlighBackgroundGray);
 }
 
+.cs-color {
+    color: var(--primary);
+}
 
+.starter-wrapper{
+    padding-top:13rem !important;
+    border-bottom:1px solid #ccc;
+}
 
 @media screen and (max-width:768px){
     
