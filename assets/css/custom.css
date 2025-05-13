@@ -34,3 +34,27 @@
   .cs-ul-contact a{
     font-size:12pt !important;
   }
+
+
+@media screen and (max-width:768px){
+    
+    #cs-footer-1761 .cs-logo-group .cs-text{
+        max-width:100%;
+    }
+
+    #cs-footer-1761 .cs-bottom-links{
+        display:grid;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    #cs-footer-1761 .cs-bottom-links .cs-bottom-link{
+        padding:0;
+        text-align: center !important;
+    }
+
+    #cs-footer-1761 .cs-bottom-link:before{
+        width:0px;
+        margin:0;
+    }
+}
