@@ -304,5 +304,6 @@
 }
 
 #hero-331 .cs-checklist li:before{
+    content:"a";
     color:red !important; 
 }
