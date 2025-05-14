@@ -76,4 +76,19 @@
     }
 }
 
+.cs-top-container,
+.cs-top-container .cs-top-social img {
+    transition:.5s;
+}
 
+#cs-navigation .cs-link-icon{
+    filter: brightness(0) invert(1);
+}
+body.scroll .cs-top-container {
+    padding-top:.3rem !important;
+    padding-bottom:.3rem !important;
+}
+
+body.scroll .cs-top-container .cs-top-social img {
+    width:15px !important;
+}
