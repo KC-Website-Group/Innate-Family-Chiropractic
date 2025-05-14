@@ -20,6 +20,13 @@
 
 
 
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto/roboto-v47-latin-regular.woff2') format('woff2');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -67,4 +74,5 @@ body {
 .text-center{
     text-align: center;
 }
+
 
