@@ -302,3 +302,7 @@
     background: rgba(0, 0, 0, .5); /* adjust opacity */
     z-index: 999;
 }
+
+#hero-331 .cs-checklist li:before{
+    color:red !important; 
+}
