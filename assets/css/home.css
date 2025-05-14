@@ -304,6 +304,6 @@
 }
 
 #hero-331 .cs-checklist li:before{
-    content:"a";
+    content: "\2713"; /* or "\2713" */
     color:red !important; 
 }
