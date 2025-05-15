@@ -74,7 +74,75 @@
     <!--                 Navigation                   -->
     <!-- ============================================ -->
 
-  
+    <header id="cs-navigation">
+        <div class="cs-top-bar">
+            <div class="cs-top-container">
+                <div class="cs-top-contact">
+                    <a href="tel:+18165611500" class="cs-top-link" >
+                        <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/phone-grey.svg" alt="Phone icon" width="16" height="16" aria-hidden="true" decoding="async">
+                        Call or text (816) 561-1500
+                    </a>
+                    <a href="https://maps.google.com/?q=4141+Pennsylvania+Ave+STE+105,+Kansas+City,+MO+64111" target="_blank" class="cs-top-link">
+                        <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/clock-grey.svg" alt="Clock icon" width="20" height="20" aria-hidden="true" decoding="async">
+                        4141 Pennsylvania Ave STE 105, Kansas City, MO 64111
+                    </a>
+                </div>
+                <div class="cs-top-social">
+                    <a href="https://www.facebook.com/InnateFamilyChiropractic/" target="__blank" class="cs-social-link" aria-label="Visit our Facebook page">
+                        <img class="cs-social-icon" src="assets/images/icons/facebook-app-symbol.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                   
+                    <a href="https://www.instagram.com/innatefamilychiro/" target="__blank" class="cs-social-link"  aria-label="Visit our Instagram page">
+                        <img class="cs-social-icon" src="assets/images/icons/instagram.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <a href="" class="cs-logo" aria-label="back to home">
+                <img src="assets/images/logo.png" alt="logo" aria-hidden="true" decoding="async">
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="index.html" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="about.html" class="cs-li-link">
+                                About Us
+                            </a>
+                        </li>
+                      
+                        <li class="cs-li">
+                            <a href="about-chiropractic.html" class="cs-li-link">
+                                About Chiropractic
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="contact.html" class="cs-li-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="https://www.atlaschirosys.com/booking/#/login?s=18368660" target="__blank" class="cs-button-solid cs-nav-button">Book Online</a>
+        </div>
+    </header>
 
     <!-- ============================================ -->
     <!--                    Hero                      -->
