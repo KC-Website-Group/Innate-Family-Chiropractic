@@ -133,6 +133,7 @@ body.scroll .cs-top-container .cs-top-social img {
     box-shadow: 0 8px 24px rgba(0,0,0,0.08);
     z-index: 100;
     padding: 8px 0;
+    list-style: none;
 }
 
 .cs-dropdown:hover > .cs-dropdown-menu,
