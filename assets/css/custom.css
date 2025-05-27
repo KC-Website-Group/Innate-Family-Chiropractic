@@ -95,3 +95,85 @@ body.scroll .cs-top-container .cs-top-social img {
     width:15px !important;
 }
 
+
+/* Navigation Dropdown Styles */
+.cs-nav .cs-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cs-li {
+    position: relative;
+}
+
+.cs-li-link, .cs-link {
+    display: block;
+    padding: 12px 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+.cs-li-link:hover, .cs-link:hover {
+    color: #0077b6;
+    background: #f2f2f2;
+}
+
+.cs-dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 180px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    z-index: 100;
+    padding: 8px 0;
+}
+
+.cs-dropdown:hover > .cs-dropdown-menu,
+.cs-dropdown:focus-within > .cs-dropdown-menu {
+    display: block;
+}
+
+.cs-dropdown-menu li {
+    width: 100%;
+}
+
+.cs-dropdown-menu .cs-link {
+    padding: 10px 20px;
+    color: #222;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.cs-dropdown-menu .cs-link:hover {
+    background: #f2f2f2;
+    color: var(--primary);
+}
+
+/* Responsive: Stack nav on mobile */
+@media (max-width: 900px) {
+    .cs-nav .cs-ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cs-dropdown-menu {
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+        min-width: 100%;
+    }
+
+    
+    .cs-dropdown-menu .cs-link {
+        text-align: center;
+    }
+
+}
