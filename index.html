@@ -182,7 +182,7 @@
                 </h1>
                <ul class="cs-checklist">
                     <li>Same-Day Appointments (Limited Availability)</li>
-                    <li>Digital X-rays and Spinal Thermal Scans available on site.</li>
+                    <li id="xray-short">Digital X-rays available</li>
                     <li>Gentle Adjustments for All Ages</li>
                 </ul>
                 <div class="cs-button-group">
@@ -606,7 +606,12 @@
   document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
       document.getElementById('hero-title').textContent = 'Empowering Families Through Natural Healing and Improving Nervous System Health';
-    }, 2000); // 2000ms = 2 seconds
+    }, 2000);
+
+    // X-ray checklist animation
+    setTimeout(function() {
+      document.getElementById('xray-short').textContent = 'Digital X-rays and Spinal Thermal Scans available on site.';
+    }, 2000);
   });
 </script>
 </body>
