@@ -1,39 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://unique-otter-c94148.netlify.app/</loc>
+    <loc>https://www.innatekc.com/</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.innatekc.com/assets/images/hero.webp</image:loc>
+      <image:title>Innate Family Chiropractic Hero Image</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://unique-otter-c94148.netlify.app/about.html</loc>
+    <loc>https://www.innatekc.com/index.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.innatekc.com/assets/images/hero.webp</image:loc>
+      <image:title>Innate Family Chiropractic Hero Image</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://unique-otter-c94148.netlify.app/about-chiropractic.html</loc>
+    <loc>https://www.innatekc.com/about.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.innatekc.com/assets/images/profile.webp</image:loc>
+      <image:title>Dr. Thomas Adams</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://unique-otter-c94148.netlify.app/contact.html</loc>
+    <loc>https://www.innatekc.com/about-chiropractic.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.innatekc.com/contact.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.innatekc.com/privacy-policy.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.innatekc.com/terms-and-conditions.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.innatekc.com/accessibility.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.innatekc.com/sitemap.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- External booking and forms (optional, can be removed if not needed for SEO) -->
   <url>
     <loc>https://www.atlaschirosys.com/booking/#/login?s=18368660</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.atlaschirosys.com/apps/#/form?form=2701&amp;clinic=958</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.atlaschirosys.com/apps/#/form?form=2759&amp;clinic=958</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.atlaschirosys.com/apps/#/form?form=2794&amp;clinic=958</loc>
-  </url>
-  <url>
-    <loc>https://unique-otter-c94148.netlify.app/privacy-policy.html</loc>
-  </url>
-  <url>
-    <loc>https://unique-otter-c94148.netlify.app/terms-and-conditions.html</loc>
-  </url>
-  <url>
-    <loc>https://unique-otter-c94148.netlify.app/accessibility.html</loc>
-  </url>
-  <url>
-    <loc>https://unique-otter-c94148.netlify.app/sitemap.html</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>
