@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://unique-otter-c94148.netlify.app/sitemap.xml
+Sitemap: https://www.innatekc.com/sitemap.xml
